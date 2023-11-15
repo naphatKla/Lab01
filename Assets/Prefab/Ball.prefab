@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 715145858530485988}
   - component: {fileID: 1094600511568050075}
   - component: {fileID: 8695557127751277018}
+  - component: {fileID: 6970984064046558738}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -87,7 +88,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7729205522002788275}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: faf0175bbd018e34ab5eaea5b902e671, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -109,3 +110,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6970984064046558738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729205522002788275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affae7368dd13714fa2ff813fa38a825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point: 0
+  ballColor: 0
+  rd: {fileID: 0}
